@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catatnku</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo-section">
+    <img src="notes-app.png" class="logo" alt="Logo Catatan">
+    <span class="logo-text">Catatan</span>
+  </div>
+</div>
+
+<header>
+  <h1>Daily Mind</h1>
+</header>
+
+<div class="content">
+  <form id="form">
+    <input type="hidden" id="note-id">
+    <input type="text" id="judul" placeholder="Judul Catatan" required>
+    <textarea id="konten" placeholder="Coba Ketikan Sesuatu..." required></textarea>
+    <input type="submit" value="Tambahkan">
+  </form>
+
+  <div class="notes-container" id="catatan"></div>
+</div>
+<script src="script.js"></script>
+<footer>
+  &copy; 2025 Nur Siskarimah
+</footer>
+</body>
+</html>
